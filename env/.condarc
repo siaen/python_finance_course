@@ -1,0 +1,5 @@
+default_channels:
+  - https://www.artifactrepo-dev.nam.nsroot.net/artifactory/generic-anaconda-remote/pkgs/free
+  - https://www.artifactrepo-dev.nam.nsroot.net/artifactory/generic-anaconda-remote/pkgs/r
+  - https://www.artifactrepo-dev.nam.nsroot.net/artifactory/generic-anaconda-remote/pkgs/pro
+ssl_verify: false
