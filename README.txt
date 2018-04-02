@@ -1,10 +1,10 @@
 =====================================================================
 
-This repository contains the possible material for 
+This repository contains the material for 
 
 Python finance course
 
-expected to be delivered on site at CEU Budapest in the spring of 2018. 
+delivered on site at CEU Budapest in the spring of 2018. 
 
 The main material is a series of jupyter notebooks.
 
@@ -13,24 +13,13 @@ The main material is a series of jupyter notebooks.
 ENVIRONMENT:
 
 In order to make the collaboration efficient I have created an environment generator file that contains the essential packages to be used. As Anaconda is somewhat difficult to use in Citi this requires a set of configuration files to be present.
-
-	Prerequisites:
-
-		Anaconda installed 
-		either through CMP:
-		See : http://fiqawiki.eur.nsroot.net:8079/pages/viewpage.action?pageId=259392216
-
-		or with temp. admin:
-		https://www.artifactrepo-dev.nam.nsroot.net/artifactory/generic-anaconda-remote/archive/
-
-	Configuration:
-
-		copy env\pip.ini => %APPDATA%\pip
-		copy env\.condarc => c:\Users\<soeid>
-
+	
 	Install:
+		Download and install Anaconda:
+		https://www.anaconda.com/download/
 
-		run the following command to create the conda environment:
+		Run the following command in Anaconda Prompt (you can find in the start menu) 
+		to create the conda environment:
 
 		c> conda create --name ceu_course --file env\conda_env.txt
 		c> activate ceu_course
@@ -50,13 +39,11 @@ In order to make the collaboration efficient I have created an environment gener
 		c> jupyter nbextension enable toc2/main
 		
 	Use:
+		Run the following command in Anaconda Prompt (you can find in the start menu) 
+		to start a jupyter notebook:
+
 		activate environment:
 		c> activate ceu_course
 
 		start jupyter
 		c> jupyter notebook
-
-	Note:
-		install without admin rights:
-		c> conda create --name ceu_course --file env\conda_env.txt -c https://www.artifactrepo-dev.nam.nsroot.net/artifactory/generic-anaconda-remote/pkgs/free
-
