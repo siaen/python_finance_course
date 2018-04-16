@@ -46,4 +46,4 @@ In order to make the collaboration efficient I have created an environment gener
 		c> activate ceu_course
 
 		start jupyter
-		c> jupyter notebook
+		c> jupyter notebook --NotebookApp.iopub_data_rate_limit=10000000000
