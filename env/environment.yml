@@ -78,7 +78,6 @@ dependencies:
     - jupyter-nbextensions-configurator==0.4.0
     - ldap3==2.5.1
     - lxml==4.1.1
-    - mqa-ldap==0.1
     - nbextensions==0.0.6
     - pyasn1==0.4.2
     - pyyaml==3.12
